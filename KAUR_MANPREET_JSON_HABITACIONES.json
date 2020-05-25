@@ -1,0 +1,481 @@
+[
+    {
+        "id": 12345,
+        "nombre": "Borja Moll",
+        "estrellas": 5,
+        "habitacions": [
+            {
+                "id": 100,
+                "tipo": "doble",
+                "sofa": [
+                    {
+                        "individual": false,
+                        "doble": true,
+                        "lTipo": false
+                    }
+                ],
+                "dutxa": true,
+                "banyera": true,
+                "servicioPersonal": true,
+                "vistesAlMar": true,
+                "preus": [
+                    {
+                        "prov": "prov1",
+                        "enVerano": true,
+                        "preuNet": 20,
+                        "impostos": "2%",
+                        "comissio": "1%",
+                        "preuTotal": 20.60,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov2",
+                        "enVerano": false,
+                        "preuNet": 20,
+                        "impostos": "2%",
+                        "comissio": "1%",
+                        "preuTotal": 20.60,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov3",
+                        "enVerano": false,
+                        "preuNet": 20,
+                        "impostos": "2%",
+                        "comissio": "1%",
+                        "preuTotal": 20.60,
+                        "moneda": "€"
+                    }
+                ],
+                "serviciosGratis": [
+                    "piscina",
+                    "gimnasio",
+                    "desayuno",
+                    "minibar",
+                    "pub",
+                    "wifi"
+                ]
+            },
+            {
+                "id": 200,
+                "tipo": "individual",
+                "sofa": [
+                    {
+                        "individual": true,
+                        "doble": false,
+                        "lTipo": false
+                    }
+                ],
+                "dutxa": true,
+                "banyera": true,
+                "servicioPersonal": false,
+                "vistesAlMar": true,
+                "preus": [
+                    {
+                        "prov": "prov1",
+                        "enVerano": true,
+                        "preuNet": 15,
+                        "impostos": "1.8%",
+                        "comissio": "0.5%",
+                        "preuTotal": 15.35,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov2",
+                        "enVerano": false,
+                        "preuNet": 15,
+                        "impostos": "1.8%",
+                        "comissio": "0.5%",
+                        "preuTotal": 15.35,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov3",
+                        "enVerano": false,
+                        "preuNet": 15,
+                        "impostos": "1.8%",
+                        "comissio": "0.5%",
+                        "preuTotal": 15.35,
+                        "moneda": "€"
+                    }
+                ],
+                "serviciosGratis": [
+                    "gimnasio",
+                    "piscina",
+                    "desayuno",
+                    "minibar",
+                    "pub",
+                    "wifi"
+                ]
+            },
+            {
+                "id" : 300,
+                "tipo": "Para Familia",
+                "sofa": [
+                    {
+                        "individual": false,
+                        "doble": false,
+                        "lTipo": true
+                    }
+                ],
+                "dutxa": true,
+                "banyera": true,
+                "servicioPersonal": true,
+                "vistesAlMar": true,
+                "preus": [
+                    {
+                        "prov": "prov1",
+                        "enVerano": true,
+                        "preuNet": 25,
+                        "impostos": "2.5%",
+                        "comissio": "1.2%",
+                        "preuTotal": 25.95,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov2",
+                        "enVerano": false,
+                        "preuNet": 25,
+                        "impostos": "2.5%",
+                        "comissio": "1.2%",
+                        "preuTotal": 25.95,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov3",
+                        "enVerano": false,
+                        "preuNet": 25,
+                        "impostos": "2.5%",
+                        "comissio": "1.2%",
+                        "preuTotal": 25.95,
+                        "moneda": "€"
+                    }
+                ],
+                "serviciosGratis": [
+                    "gimnasio",
+                    "piscina",
+                    "desayuno",
+                    "minibar",
+                    "pub",
+                    "wifi"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1234,
+        "nombre": "Melia",
+        "estrellas" : 4,
+        "habitacions": [
+            {
+                "id" : 100,
+                "tipo": "doble",
+                "sofa": [
+                    {
+                        "individual": false,
+                        "doble": true,
+                        "lTipo": false
+                    }
+                ],
+                "dutxa": true,
+                "banyera": false,
+                "servicioPersonal": false,
+                "vistesAlMar": false,
+                "preus": [
+                    {
+                        "prov": "prov1",
+                        "enVerano": true,
+                        "preuNet": 20,
+                        "impostos": "2%",
+                        "comissio": "1%",
+                        "preuTotal": 20.60,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov2",
+                        "enVerano": false,
+                        "preuNet": 20,
+                        "impostos": "2%",
+                        "comissio": "1%",
+                        "preuTotal": 20.60,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov3",
+                        "enVerano": false,
+                        "preuNet": 20,
+                        "impostos": "2%",
+                        "comissio": "1%",
+                        "preuTotal": 20.60,
+                        "moneda": "€"
+                    }
+                ],
+                "serviciosGratis": [
+                    "piscina",
+                    "desayuno",
+                    "pub",
+                    "wifi"
+                ]
+            },
+            {
+                "id" : 200,
+                "tipo": "individual",
+                "sofa": [
+                    {
+                        "individual": true,
+                        "doble": false,
+                        "lTipo": false
+                    }
+                ],
+                "dutxa": true,
+                "banyera": true,
+                "servicioPersonal": false,
+                "vistesAlMar": true,
+                "preus": [
+                    {
+                        "prov": "prov1",
+                        "enVerano": true,
+                        "preuNet": 15,
+                        "impostos": "1.8%",
+                        "comissio": "0.5%",
+                        "preuTotal": 15.35,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov2",
+                        "enVerano": false,
+                        "preuNet": 15,
+                        "impostos": "1.8%",
+                        "comissio": "0.5%",
+                        "preuTotal": 15.35,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov3",
+                        "enVerano": false,
+                        "preuNet": 15,
+                        "impostos": "1.8%",
+                        "comissio": "0.5%",
+                        "preuTotal": 15.35,
+                        "moneda": "€"
+                    }
+                ],
+                "serviciosGratis": [
+                    "desayuno",
+                    "minibar",
+                    "pub",
+                    "wifi"
+                ]
+            },
+            {
+                "id" : 300,
+                "tipo": "Para Familia",
+                "sofa": [
+                    {
+                        "individual": false,
+                        "doble": false,
+                        "lTipo": true
+                    }
+                ],
+                "dutxa": true,
+                "banyera": true,
+                "servicioPersonal": true,
+                "vistesAlMar": true,
+                "preus": [
+                    {
+                        "prov": "prov1",
+                        "enVerano": true,
+                        "preuNet": 25,
+                        "impostos": "2.5%",
+                        "comissio": "1.2%",
+                        "preuTotal": 25.95,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov2",
+                        "enVerano": false,
+                        "preuNet": 25,
+                        "impostos": "2.5%",
+                        "comissio": "1.2%",
+                        "preuTotal": 25.95,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov3",
+                        "enVerano": false,
+                        "preuNet": 25,
+                        "impostos": "2.5%",
+                        "comissio": "1.2%",
+                        "preuTotal": 25.95,
+                        "moneda": "€"
+                    }
+                ],
+                "serviciosGratis": [
+                    "desayuno",
+                    "piscina",
+                    "wifi",
+                    "pub"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 123,
+        "nombre": "Palau Congreso",
+        "estrellas" : 3,
+        "habitacions": [
+            {
+                "id" : 100,
+                "tipo": "doble",
+                "sofa": [
+                    {
+                        "individual": false,
+                        "doble": true,
+                        "lTipo": false
+                    }
+                ],
+                "dutxa": true,
+                "banyera": true,
+                "servicioPersonal": true,
+                "vistesAlMar": true,
+                "preus": [
+                    {
+                        "prov": "prov1",
+                        "enVerano": true,
+                        "preuNet": 20,
+                        "impostos": "2%",
+                        "comissio": "1%",
+                        "preuTotal": 20.60,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov2",
+                        "enVerano": false,
+                        "preuNet": 20,
+                        "impostos": "2%",
+                        "comissio": "1%",
+                        "preuTotal": 20.60,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov3",
+                        "enVerano": false,
+                        "preuNet": 20,
+                        "impostos": "2%",
+                        "comissio": "1%",
+                        "preuTotal": 20.60,
+                        "moneda": "€"
+                    }
+                ],
+                "serviciosGratis": [
+                    "desayuno",
+                    "minibar",
+                    "pub",
+                    "wifi",
+                    "piscina"
+                ]
+            },
+            {
+                "id" : 200,
+                "tipo": "individual",
+                "sofa": [
+                    {
+                        "individual": true,
+                        "doble": false,
+                        "lTipo": false
+                    }
+                ],
+                "dutxa": true,
+                "banyera": true,
+                "servicioPersonal": false,
+                "vistesAlMar": true,
+                "preus": [
+                    {
+                        "prov": "prov1",
+                        "enVerano": true,
+                        "preuNet": 15,
+                        "impostos": "1.8%",
+                        "comissio": "0.5%",
+                        "preuTotal": 15.35,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov2",
+                        "enVerano": false,
+                        "preuNet": 15,
+                        "impostos": "1.8%",
+                        "comissio": "0.5%",
+                        "preuTotal": 15.35,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov3",
+                        "enVerano": false,
+                        "preuNet": 15,
+                        "impostos": "1.8%",
+                        "comissio": "0.5%",
+                        "preuTotal": 15.35,
+                        "moneda": "€"
+                    }
+                ],
+                "serviciosGratis": [
+                    "desayuno",
+                    "minibar",
+                    "wifi",
+                    "piscina"
+                ]
+            },
+            {
+                "id" : 300,
+                "tipo": "Para Familia",
+                "sofa": [
+                    {
+                        "individual": false,
+                        "doble": false,
+                        "lTipo": true
+                    }
+                ],
+                "dutxa": true,
+                "banyera": true,
+                "servicioPersonal": true,
+                "vistesAlMar": true,
+                "preus": [
+                    {
+                        "prov": "prov1",
+                        "enVerano": true,
+                        "preuNet": 25,
+                        "impostos": "2.5%",
+                        "comissio": "1.2%",
+                        "preuTotal": 25.95,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov2",
+                        "enVerano": false,
+                        "preuNet": 25,
+                        "impostos": "2.5%",
+                        "comissio": "1.2%",
+                        "preuTotal": 25.95,
+                        "moneda": "€"
+                    },
+                    {
+                        "prov": "prov3",
+                        "enVerano": false,
+                        "preuNet": 25,
+                        "impostos": "2.5%",
+                        "comissio": "1.2%",
+                        "preuTotal": 25.95,
+                        "moneda": "€"
+                    }
+                ],
+                "serviciosGratis": [
+                    "desayuno",
+                    "minibar",
+                    "pub",
+                    "wifi",
+                    "piscina"
+                ]
+            }
+        ]
+    }
+]
